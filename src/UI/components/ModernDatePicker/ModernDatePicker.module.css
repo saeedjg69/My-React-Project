@@ -1,0 +1,54 @@
+.text-input-margin {
+  margin: 3px 0;
+}
+
+.text-input-error {
+  border: 1px solid #ea5455;
+}
+
+.text-input-success {
+  border: 1px solid #28c76f;
+}
+
+.text-input-error-message {
+  color: #fff;
+  padding: 5px;
+  font-size: 0.8rem;
+  border-radius: 0.428rem;
+  background-color: #ea5455;
+}
+
+.disabled-input {
+  background-color: hsl(0, 0%, 95%) !important;
+  width: 100%;
+  text-align: left !important;
+}
+
+.date {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100%;
+
+}
+
+.dateinput {
+  background-color: #fff !important;
+  width: 100%;
+  text-align: right !important;
+
+  border-radius: 6px;
+  height: 40px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  margin: 8px 0;
+  padding-right: 12px;
+
+}
+
+.dateinput::placeholder {
+  color: rgb(22 163 74);
+}
+
+.calendar {
+  z-index: 1000;
+  position: relative;
+}
